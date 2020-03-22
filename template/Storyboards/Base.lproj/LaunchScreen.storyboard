@@ -14,40 +14,7 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PIy-hc-qVk">
-                                <rect key="frame" x="58" y="623" width="298" height="179"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUb-Dh-NFx">
-                                        <rect key="frame" x="0.0" y="0.0" width="298" height="85.5"/>
-                                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <state key="normal" title="Start"/>
-                                    </button>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Rs7-u5-qOz">
-                                        <rect key="frame" x="0.0" y="93.5" width="298" height="85.5"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAc-ne-4tn">
-                                                <rect key="frame" x="0.0" y="0.0" width="145" height="85.5"/>
-                                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <state key="normal" title="Stats"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqY-ql-She">
-                                                <rect key="frame" x="153" y="0.0" width="145" height="85.5"/>
-                                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <state key="normal" title="Settings"/>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="PIy-hc-qVk" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="20:100" id="8LI-Nx-8re"/>
-                            <constraint firstItem="PIy-hc-qVk" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="72:100" id="BBr-wD-gE1"/>
-                            <constraint firstItem="PIy-hc-qVk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xer-7p-6Uq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PIy-hc-qVk" secondAttribute="bottom" constant="60" id="ysr-PB-PVb"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
