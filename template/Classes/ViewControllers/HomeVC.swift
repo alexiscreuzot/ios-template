@@ -12,6 +12,7 @@ class HomeVC: GenericTableVC {
     
     enum HomeCellIdentifier : GenericTableCellIdentifier {
         case simpleCell
+        case actionRedCell
         case actionCell
     }
     
@@ -46,6 +47,16 @@ class HomeVC: GenericTableVC {
         }
         self.datasource.append(switchVM)
         
+        let longTextTitleVM = TableSeparatorCellVM.init(title: "Voluptate velit")
+        self.datasource.append(longTextTitleVM)
+        
+        let longTextVM = TableSimpleCellVM.init(title: "Ac ut consequat semper viverra nam libero justo laoreet quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", accessoryType: .none)
+        self.datasource.append(longTextVM)
+        
+        let actionRedVM = TableActionCellVM.init(title: "Cupidatat non", identifier: HomeCellIdentifier.actionRedCell.rawValue)
+        actionRedVM.titleColor = UIColor.systemRed
+        self.datasource.append(actionRedVM)
+        
         let title3VM = TableSeparatorCellVM.init(title: "Sed euismod")
         self.datasource.append(title3VM)
         
@@ -60,13 +71,13 @@ class HomeVC: GenericTableVC {
         self.datasource.append(title4VM)
         
         let simpleVM = TableSimpleCellVM.init(title: "Ac ut consequat semper viverra nam libero justo laoreet", value: "Tortor id aliquet", accessoryType: .disclosureIndicator, identifier: HomeCellIdentifier.simpleCell.rawValue)
-        self.datasource.append(simpleVM)
-        
-        let title5VM = TableSeparatorCellVM.init(title: "Scelerisque eleifend")
-        self.datasource.append(title5VM)
+        self.datasource.append(simpleVM)        
         
         let actionVM = TableActionCellVM.init(title: "Nascetur ridiculus", identifier: HomeCellIdentifier.actionCell.rawValue)
         self.datasource.append(actionVM)
+        
+        let title5VM = TableSeparatorCellVM.init(title: "\n")
+        self.datasource.append(title5VM)
         
         self.tableView.reloadData()
     }
@@ -85,6 +96,10 @@ class HomeVC: GenericTableVC {
         case .simpleCell:
             log.debug("simpleCell")
             break
+           
+        case .actionRedCell:
+            log.debug("actionRedCell")
+        break
             
         case .actionCell:
             log.debug("actionCell")
