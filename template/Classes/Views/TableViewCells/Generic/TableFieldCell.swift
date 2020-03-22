@@ -36,16 +36,21 @@ class TableFieldCell: GenericTableCell {
     
     @IBOutlet var textField: CustomTextField!
     
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        self.updateUI()
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         self.contentView.backgroundColor = UIColor.clear
         self.textField.delegate = self
         self.textField.backgroundColor = .clear
         self.textField.borderStyle = .none
-        self.textField.textColor = UIColor.label
-        self.textField.layer.borderColor = UIColor.tertiaryLabel.cgColor
+        
         self.textField.layer.borderWidth = 1
         self.textField.layer.cornerRadius = 10
+        
+        self.updateUI()
     }
     
     override func setViewModel(_ viewModel: GenericTableCellVM) {
@@ -55,6 +60,13 @@ class TableFieldCell: GenericTableCell {
             let placeholder = viewModel.placeholder ?? ""
             self.textField.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: [NSAttributedString.Key.foregroundColor : UIColor.tertiaryLabel])
         }
+    }
+    
+    func updateUI() {
+        self.textField.textColor = UIColor.label
+        self.textField.layer.borderColor = self.textField.isEditing
+            ? UIColor.systemBlue.cgColor
+        : UIColor.tertiaryLabel.cgColor
     }
     
     @IBAction func textFieldEditingDidChange(_ sender: UITextField) {
