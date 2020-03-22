@@ -1,0 +1,32 @@
+PODS:
+  - KeyboardConstraint (0.0.4)
+  - PluggableAppDelegate (1.3.0)
+  - R.swift (5.0.3):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.1)
+  - SwiftyBeaver (1.8.4)
+
+DEPENDENCIES:
+  - KeyboardConstraint (~> 0.0)
+  - PluggableAppDelegate (~> 1.3)
+  - R.swift (~> 5.0.3)
+  - SwiftyBeaver (~> 1.7)
+
+SPEC REPOS:
+  trunk:
+    - KeyboardConstraint
+    - PluggableAppDelegate
+    - R.swift
+    - R.swift.Library
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  KeyboardConstraint: 920eb53f77090ad498824c8f7f1691c6ae46d441
+  PluggableAppDelegate: 94c85bf821d85661c843a86e1aafe0cc12a62634
+  R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
+  R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
+  SwiftyBeaver: f9a9aba96a6a6166e21682377804d728b0d20b95
+
+PODFILE CHECKSUM: f0250f413edd3bef495c666533224b81be2aff3e
+
+COCOAPODS: 1.8.4

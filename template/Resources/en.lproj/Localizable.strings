@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  template
+
+  Created by Alexis Creuzot on 20/03/2020.
+  Copyright © 2020 alexiscreuzot. All rights reserved.
+*/
+
+"Common/Ok" = "Ok";
+"Common/Save" = "Save";
+"Common/Cancel" = "Cancel";
+"Common/Error" = "Error";
+"Common/Done" = "Done";
+"Common/Previous" = "Previous";
+"Common/Reset" = "Reset";
+"Common/Next" = "Next";
+"Common/Skip" = "Skip";
+"Common/Stop" = "Stop";
+"Common/Share" = "Share";
+"Common/Continue" = "Continue";
+"Common/Resume" = "Resume";
+"Common/Confirm" = "Confirm";
+"Common/Finish" = "Finish";
+"Common/Yes" = "Yes";
+"Common/No" = "No";
+
+"Error/Unknown" = "Something went wrong";
