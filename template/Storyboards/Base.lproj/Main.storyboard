@@ -36,7 +36,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableSeparatorCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableSeparatorCell" rowHeight="68" id="abr-fK-P7O" customClass="TableSeparatorCell" customModule="rotoscopy" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableSeparatorCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableSeparatorCell" rowHeight="68" id="abr-fK-P7O" customClass="TableSeparatorCell" customModule="Template" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="68"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="abr-fK-P7O" id="fAt-fw-ege">
@@ -62,7 +62,7 @@
                                             <outlet property="titleLabel" destination="eYz-q4-n91" id="r0D-CT-8Lw"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableStepperCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableStepperCell" rowHeight="90" id="4qH-3Z-tQZ" customClass="TableStepperCell" customModule="rotoscopy" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableStepperCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableStepperCell" rowHeight="90" id="4qH-3Z-tQZ" customClass="TableStepperCell" customModule="Template" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="96" width="414" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4qH-3Z-tQZ" id="K2H-iz-VgR">
@@ -100,7 +100,7 @@
                                             <outlet property="titleLabel" destination="FdU-mb-aSj" id="UaF-Ej-IMm"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableSwitchCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableSwitchCell" rowHeight="80" id="aLT-kN-hMb" customClass="TableSwitchCell" customModule="rotoscopy" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableSwitchCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableSwitchCell" rowHeight="80" id="aLT-kN-hMb" customClass="TableSwitchCell" customModule="Template" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="186" width="414" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aLT-kN-hMb" id="AMS-QU-arc">
@@ -140,14 +140,14 @@
                                             <outlet property="titleLabel" destination="zfc-8R-Juj" id="0bZ-Kl-ybU"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableFieldCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableFieldCell" rowHeight="70" id="N3d-Cu-BiS" customClass="TableFieldCell" customModule="rotoscopy" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableFieldCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableFieldCell" rowHeight="70" id="N3d-Cu-BiS" customClass="TableFieldCell" customModule="Template" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="266" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="N3d-Cu-BiS" id="UC1-0W-8Nl">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Plop" borderStyle="roundedRect" placeholder="Placeholder" textAlignment="natural" minimumFontSize="18" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="aVd-pp-ayA" customClass="CustomTextField" customModule="rotoscopy" customModuleProvider="target">
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Plop" borderStyle="roundedRect" placeholder="Placeholder" textAlignment="natural" minimumFontSize="18" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="aVd-pp-ayA" customClass="CustomTextField" customModule="Template" customModuleProvider="target">
                                                     <rect key="frame" x="20" y="5" width="374" height="60"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.052680864729999999" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -171,7 +171,7 @@
                                             <outlet property="textField" destination="aVd-pp-ayA" id="BLM-MY-OcJ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableSimpleCell" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="TableSimpleCell" rowHeight="61" id="tuv-ua-YhL" customClass="TableSimpleCell" customModule="_MinutesWorkout" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableSimpleCell" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="TableSimpleCell" rowHeight="61" id="tuv-ua-YhL" customClass="TableSimpleCell" customModule="Template" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="336" width="414" height="61"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tuv-ua-YhL" id="Ryz-FM-5sA">
@@ -211,7 +211,7 @@
                                             <outlet property="valueLabel" destination="csu-a9-Fwf" id="V50-p8-ORP"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableActionCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableActionCell" rowHeight="56" id="qaR-EA-3LW" customClass="TableActionCell" customModule="rotoscopy" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableActionCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableActionCell" rowHeight="56" id="qaR-EA-3LW" customClass="TableActionCell" customModule="Template" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="397" width="414" height="56"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qaR-EA-3LW" id="UCd-fm-nE6">
@@ -269,7 +269,7 @@
                         <constraints>
                             <constraint firstItem="yY0-fc-wF8" firstAttribute="leading" secondItem="Iao-BC-xct" secondAttribute="leading" id="5UH-va-T76"/>
                             <constraint firstItem="Iao-BC-xct" firstAttribute="top" secondItem="yY0-fc-wF8" secondAttribute="top" id="6GQ-RO-DtS"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="yY0-fc-wF8" secondAttribute="bottom" id="ctM-RP-Q8j"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="yY0-fc-wF8" secondAttribute="bottom" id="ctM-RP-Q8j" customClass="KeyboardAdjustConstraint"/>
                             <constraint firstItem="Iao-BC-xct" firstAttribute="trailing" secondItem="yY0-fc-wF8" secondAttribute="trailing" id="eQD-xg-nF3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Iao-BC-xct"/>
