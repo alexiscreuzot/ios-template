@@ -15,11 +15,11 @@ As of 2020, my patterns of preferences are a loose combination of MVC with MVVM.
 
 ### Core
 
-####CustomFont
+#### CustomFont
 
 Helpdul class to define all your text styles and use them throughout the app, for consistency.
 
-####CustomError
+#### CustomError
 
 Define your errors here.
 
